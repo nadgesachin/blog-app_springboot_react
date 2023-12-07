@@ -1,0 +1,44 @@
+# Main .gitignore file
+
+# Ignore Next.js build output and Node.js modules (from frontend)
+.next/
+.idea
+node_modules/
+.vercel/
+out/
+.cache/
+build-stats.json
+package.json
+package-lock.json
+next.config.js
+
+# Ignore build and IDE-specific files (from backend)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+.idea
+*.iws
+*.iml
+*.ipr
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+.vscode/
+
+# Application-specific files to be ignored (from both frontend and backend)
+application.properties
+pom.xml
+.mvn
